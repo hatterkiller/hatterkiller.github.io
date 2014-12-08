@@ -44,7 +44,7 @@ define(["Game",
 
   var closenessForLightDamage = 8;
 
-  var MAX_PUMMEL_HEALTH = 20;
+  var MAX_PUMMEL_HEALTH = 10;
   var ZOMBIE_PUSHBACK   = 25;
 
   var DEFAULT_Z_INDEX = 300;

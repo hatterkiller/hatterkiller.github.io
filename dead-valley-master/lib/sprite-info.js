@@ -39,17 +39,6 @@ define({
       y: 20
     }
   },
-	apc: {
-    img: 'apc',
-    name: 'apc',
-    width: 34,
-    height: 50,
-    layers: 6,
-    center: {
-      x: 12,
-      y: 20
-    }
-  },
   PoliceCar: {
     img: 'police-car',
     name: 'Police Car',

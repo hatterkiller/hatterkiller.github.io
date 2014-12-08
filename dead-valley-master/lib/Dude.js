@@ -39,7 +39,7 @@ define(["Game",
 
   var MAX_HEALTH = 6;
 
-  var SPEED = 70;
+  var SPEED = 48;
   var WALKING_ANIMATION_FRAME_RATE = 0.03; // in seconds
   var DAMAGE_ANIMATION_TIME        = 0.3;  // in seconds
   var FIRING_ANIMATION_TIME        = 0.1;  // in seconds
