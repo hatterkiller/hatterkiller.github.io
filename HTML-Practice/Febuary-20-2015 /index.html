@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('a[href^="#"]').on('click',function (e) {
+		    e.preventDefault();
+
+		    var target = this.hash,
+		    $target = $(target);
+
+		    $('html, body').stop().animate({
+		        'scrollTop': $target.offset().top
+		    }, 900, 'swing', function () {
+		        window.location.hash = target;
+		    });
+		});
+	});
+	</script>
+	
+</head>
+<body>
+	<div id="navbar">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="#products">Products</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>	
+	</div>
+	<div class="top">
+		<h1 class="pagecenter">This is what we do</h1>
+	</div>
+	<div id="products" class="content">
+		<h1 class="pagecenter">See Our Products</h1>
+	</div>
+	<div id="contact" class="content">
+		<h1 class="pagecenter">Contact Us</h1>
+		<h4 class="pagecenter">At: <a href="mailto:defaultcode1@gmail.com">defaultcode1@gmail.com</a></h4>
+	</div>
+	
+	<footer>
+		Copyright Daiki Shinomiya
+	</footer>
+</body>
+	
