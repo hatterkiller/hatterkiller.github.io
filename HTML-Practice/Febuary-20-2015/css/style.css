@@ -11,6 +11,14 @@ a{
 h1{
 	font-size:7vh;
 }
+body{
+	position:relative;
+}
+img{
+	width:100%;
+	overflow:hidden;
+	margin-top:-8vh;
+}
 #navbar{
 	width:100vw;
 	background-color:#2C3E50;
@@ -29,6 +37,9 @@ h1{
 	color:#ECF0F1;
 	transition: all 0.3s ease-out;
 	text-decoration:none;
+	position:relative;
+	z-index:100;
+	
 }
 #navbar ul li a:hover{
 	background-color:#ECF0F1;
@@ -52,13 +63,13 @@ footer{
 .pagecenter{
 	position:relative;
 	text-align:center;
-	top:50vh;
+	top:40vh;
 	width:30vw;
 	margin-left:35vw;
 }
 .top .pagecenter{
 	color:#ECF0F1;
-	
+
 }
 .content{
 	width:100vw;
@@ -68,9 +79,18 @@ footer{
 .top{
 	background-color:#E74C3C;
 	height:93vh;
+	max-height:93vh;
+	overflow:hidden;
+}
+.top img{
+	margin-top:-10vh;
+	
 }
 #products{
 	color:#3498DB;
+	height:100vh;
+	max-height:100vh;
+	overflow:hidden;
 }
 #contact{
 	background-color:#3498DB;
