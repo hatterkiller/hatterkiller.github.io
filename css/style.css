@@ -1,11 +1,31 @@
 *{
 	margin:0;
-	font-family:helvetica;
+	font-family:Helvetica;
+    background-color: darkslateblue;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
 }
 ul li{
 	display:inline-block;
 	padding:2vh 2vw;
+    color:black;
+    display:none;
+    
 }
 ul{
 
+}
+
+.body{
+    text-align: center;
+    margin-top: 50vh;
+    color:aquamarine;
+}
+.centertitle{
+    font-size: 3em;
+    color:antiquewhite;    
+        
 }
