@@ -2,9 +2,10 @@
     font-family: Helvetica;
 }
 body {
-  left: 0;
-  margin: 0;
-  position: relative;
+    left: 0;
+    margin: 0;
+    position: relative;
+    background-color: #E1E6FA;
 }
 
 
@@ -17,30 +18,10 @@ body {
   width: 285px;
 }
 
-.center{
-    color:white;
-    font-size:5vh;
-    text-align: center;
-    width:25vw;
-    margin-left:25vw;
-    top:25vh;
-    position: relative;
-}
-
-.mainbody {
-  background-color:#375D81;
-  height: 100vh;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
-}
-
 
 .menu ul {
   border-top: 1px solid #C4D7ED;
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 
@@ -87,10 +68,49 @@ transition: all 0.2s ease-in;
 .icon-menu i {
   margin-right: 5px;
 }
+
+.center{
+    color:#E1E6FA;
+    font-size:5vh;
+    text-align: center;
+    width:25vw;
+    margin-left:25vw;
+    top:25vh;
+    position: relative;
+}
+.center2{
+    color:#E1E6FA;
+    font-size:5vh;
+    text-align: center;
+}
+
+.mainbody {
+  background-color:#375D81;
+  height: 100vh;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
 .page{
+    margin-top: 0;
     width:100vw;
     height:100vh;
 }
-.body2{
-    background-color: black;
+.body1{
+      height:100vh;
+}
+.body2 h1{
+    color:#183152;
+}
+.dialog{
+    top:25vh;
+    width:50vw;
+    height:50vh;
+    background-color: rgba(55, 93, 129, 0.2);
+    position:relative;
+    left:25vw;
+    text-align: center;
+    
 }
