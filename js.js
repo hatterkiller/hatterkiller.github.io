@@ -20,4 +20,19 @@ var main = function() {
   });
 
 };
+var hide = function() {
+$('.lol').hover(function() 
+{ 
+    $('.mainbody').css("background-color", "black"); 
+}); 
+};
+
+
+
+
+
 $(document).ready(main);
+
+$(document).ready(hide);
+ 
+        

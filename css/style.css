@@ -83,6 +83,16 @@ transition: all 0.2s ease-in;
     font-size:5vh;
     text-align: center;
 }
+.left{
+    float:left;
+    width:20vw;
+    height:20vw;
+    overflow:hidden;
+}
+.left img{
+    width:20vw;
+    margin-top: -6vh;
+}
 
 .mainbody {
   background-color:#375D81;
