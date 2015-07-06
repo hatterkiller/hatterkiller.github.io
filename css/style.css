@@ -5,13 +5,13 @@ body {
     left: 0;
     margin: 0;
     position: relative;
-    background-color: #E1E6FA;
+    background-color: #687D77;
 }
 
 
 .menu {
   position: relative;
-  background: #183152;
+  background-color: #484A47;
   left: -285px;  
   height: 100vh;
   position: fixed;
@@ -20,13 +20,13 @@ body {
 
 
 .menu ul {
-  border-top: 1px solid #C4D7ED;
+  border-top: 1px solid #ECEBF0;
   list-style: none;
   padding: 0;
 }
 
 .menu li {
-  border-bottom: 1px solid #C4D7ED;
+  border-bottom: 1px solid #ECEBF0;
   line-height: 45px;
   padding-bottom: 3px;
   padding-left: 20px;
@@ -34,7 +34,7 @@ body {
 }
 
 .menu a {
-  color: #E1E6FA;
+  color: #ECEBF0;
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -47,21 +47,22 @@ body {
 }
 
 .menuclicky {
-  color: white;
-  font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-  width:30px;
-  text-decoration: none;
-  text-transform: uppercase;
-transition: all 0.2s ease-in;
-  cursor:pointer;
+    color: white;
+    font-size: 1.5vw;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 7.5vw;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+    cursor:pointer;
 }
 .menuclicky:hover{
-	-webkit-stroke-width: 5.3px;
+/*	-webkit-stroke-width: 5.3px;
     -webkit-stroke-color: black;
-    -webkit-fill-color: black;
+    -webkit-fill-color: black;*/
+    background-color:#484A47;
     text-shadow: 1px 0px 20px white;
 }
 
@@ -73,8 +74,8 @@ transition: all 0.2s ease-in;
     color:#E1E6FA;
     font-size:5vh;
     text-align: center;
-    width:25vw;
-    margin-left:25vw;
+    width:50vw;
+    margin-left:15vw;
     top:25vh;
     position: relative;
 }
@@ -95,7 +96,8 @@ transition: all 0.2s ease-in;
 }
 
 .mainbody {
-  background-color:#375D81;
+  /*background-color:#375D81;*/
+  background-image: url("../back.jpg");
   height: 100vh;
   -webkit-background-size: cover;
      -moz-background-size: cover;
