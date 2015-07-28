@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CS:GO Market Price Fetcher</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <style>
+      body{
+          padding-left:3vw;
+      }
+      
+  </style>
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+    <h1>CSGO Item Market Price Checker</h1>
+    <h4>Input the Hash Value into the box</h4>
+    <div style="height:20vh; overflow:hidden;"><img style="width:55vw;" src="/hash.png"/></div>
+    <form action="/create" method="post" id="frm" class="pull-left">
+ <label for="url">Hash Value</label>
+ <input  name="url" id="url">
+
+ <input type="submit" value="Submit" name="commit" class="btn btn-primary"></input>
+ </form>
+ <br>
+   <div class="container-fluid">
+       
+ <div class="row">
+ <% @bookmarks.each do |bookmark| %>
+ <div class="col-md-3">
+
+ <p><%= bookmark.title %><%= bookmark.url %></p>
+ </div>
+ <% end %>
+ </div>
+ </div>
+ 
+ <script>
+ $('#url').change(function(){
+ $.get("/api/site", { url: $(title).val() },
+ function(data){
+ $('#title').val(data.title);
+ });
+ })
+ </script>
+</body>
+</html>
+
+
+
+</html>
