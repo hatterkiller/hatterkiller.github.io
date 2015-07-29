@@ -58,13 +58,7 @@ body {
     transition: all 0.2s ease-in;
     cursor:pointer;
 }
-.menuclicky:hover{
-/*	-webkit-stroke-width: 5.3px;
-    -webkit-stroke-color: black;
-    -webkit-fill-color: black;*/
-    background-color:#484A47;
-    text-shadow: 1px 0px 20px white;
-}
+
 
 .icon-menu i {
   margin-right: 5px;
@@ -75,8 +69,8 @@ body {
     font-size:5vh;
     text-align: center;
     width:50vw;
-    margin-left:15vw;
-    top:25vh;
+    margin-left:3vw;
+    top:15vh;
     position: relative;
 }
 .center2{
@@ -97,7 +91,7 @@ body {
 
 .mainbody {
   /*background-color:#375D81;*/
-  background-image: url("../back.jpg");
+  background-image: url("../IMG_0356.JPG");
   height: 100vh;
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -107,11 +101,17 @@ body {
 
 .page{
     margin-top: 0;
-    width:100vw;
+    width:100%;
+    overflow: hidden;
     height:100vh;
 }
 .body1{
       height:100vh;
+}
+.body2{
+    background-image:url('../apple.jpg');
+    background-size:100%;
+    
 }
 .body2 h1{
     color:#183152;
