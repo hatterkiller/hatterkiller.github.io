@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
+        <script src="jquery.min.js"></script>
+<script src="jquery-ui.js"></script>
+    <script src="js.js"></script>
+   <script src="jquery.min2.js"></script> 
     <style>
-    #bank{
+    #number{
         margin: 0;
         font-size: 100px;
         background-color: red;
@@ -37,16 +41,80 @@
 
             function onButtonClick()
             {
-                var numRand = Math.floor(Math.random() * 10001);
+                (function($){
+    $.fn.extend({
+        numAnim: function(options) {
+            if ( ! this.length)
+                return false;
 
-                document.getElementById('bank').innerHTML = numRand;
+            this.defaults = {
+                endAt: 2560,
+                numClass: 'autogen-num',
+                duration: 5,   // seconds
+                interval: 90  // ms
+            };
+            var settings = $.extend({}, this.defaults, options);
+
+            var $num = $('<span/>', {
+                'class': settings.numClass 
+            });
+
+            return this.each(function() {
+                var $this = $(this);
+
+                // Wrap each number in a tag.
+                var frag = document.createDocumentFragment(),
+                    numLen = settings.endAt.toString().length;
+                for (x = 0; x < numLen; x++) {
+                    var rand_num = Math.floor( Math.random() * 10 );
+                    frag.appendChild( $num.clone().text(rand_num)[0] )
+                }
+                $this.empty().append(frag);
+
+                var get_next_num = function(num) {
+                    ++num;
+                    if (num > 9) return 0;
+                    return num;
+                };
+
+                // Iterate each number.
+                $this.find('.' + settings.numClass).each(function() {
+                    var $num = $(this),
+                        num = parseInt( $num.text() );
+
+                    var interval = setInterval( function() {
+                        num = get_next_num(num);
+                        $num.text(num);
+                    }, settings.interval);
+
+                    setTimeout( function() {
+                        clearInterval(interval);
+                    }, settings.duration * 1000 - settings.interval);
+                });
+                
+                setTimeout( function() {
+                    $this.text( settings.endAt.toString() );
+                }, settings.duration * 1000);
+            });
+        }
+    });
+})(jQuery);
+var numRand = Math.floor(Math.random() * 10001);
+
+//            document.getElementById('bank').innerHTML = numRand;
+
+$("#number").numAnim({
+    endAt: numRand,
+    duration: 1
+});
+                
             }
         </script>
     </head>
     <body>
         <div class="center">
             <h1>High or Low?</h1>
-            <div id="bank">
+            <div id="number">
                 Number
             </div>
             <b>2x</b>
