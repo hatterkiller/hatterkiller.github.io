@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="405px" height="283px" viewBox="0 0 405 283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 1 + Oval 1 + Oval 1 Copy + Path 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Oval-1-+-Oval-1-+-Oval-1-Copy-+-Path-3" sketch:type="MSLayerGroup" transform="translate(25.000000, 24.000000)" stroke-width="50">
+            <path d="M354.756424,36.0099538 C350.971526,32.1435322 346.919473,28.5396709 342.630126,25.2282331 C322.952866,10.0371046 298.281798,1 271.5,1 C207.158827,1 155,53.1588266 155,117.5 C155,181.841173 207.158827,234 271.5,234 L271.5,234 C303.893122,234 333.198378,220.779268 354.314287,199.439284" id="C" stroke="#979797" sketch:type="MSShapeGroup" transform="translate(254.878212, 117.500000) rotate(-180.000000) translate(-254.878212, -117.500000) "></path>
+            <g id="S" transform="translate(0.000000, 1.000000)" stroke="#414141" sketch:type="MSShapeGroup">
+                <path d="M101.546439,18.6486829 C90.8976156,7.27461843 75.7265898,0.163623596 58.8897605,0.163623596 C26.6687736,0.163623596 0.548502875,26.2064085 0.548502875,58.3318118 C0.548502875,90.4572151 26.6687736,117.154494 58.8897605,117.154494" id="Oval-1"></path>
+                <path d="M5.95501952,214.351317 C16.6038432,225.725382 31.774869,232.836376 48.6116983,232.836376 C80.8326852,232.836376 106.952956,206.793591 106.952956,174.668188 C106.952956,142.542785 80.8326852,116.5 48.6116983,116.5" id="Oval-1-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

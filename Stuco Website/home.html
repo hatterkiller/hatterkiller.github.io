@@ -1,0 +1,183 @@
+<html>
+<!--Temp Stylesheet-->
+<style>
+    *{
+        margin:0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-color:1A1A1A;
+        text-decoration: none;
+    }
+    
+    body{
+        position: relative;
+    }
+/*NAV*/
+    nav{
+        border-bottom:1px solid #ccc;
+        border-width:1px 0;
+        list-style:none;
+        margin:0;
+        padding-bottom: 5vh;
+        text-align:center;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+    }
+    nav ul li{
+        text-align: center;
+        display: inline;
+        padding:0 5vw 3vh 5vw;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color:black;
+    }
+    nav ul li a:hover{
+        font-weight: 200;
+    }
+    
+    .logo{
+        padding-bottom:  10vh;
+        width:100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+/*END OF NAV*/
+/*WOW STUFF*/
+    .head{
+        padding-top:10vh;
+        height:90vh;
+        background-color: #FFFCF2;
+
+        
+    }
+    
+    .downarrow:hover .whitearrow{
+        fill:#000;
+        animation: changeColor 1s linear forwards;
+        animation-fill-mode: forwards;
+    }
+    
+    .whitearrow{
+    }
+    
+    .center-title{
+        position:absolute;
+        text-align: center;
+        left:0;
+        top:50vh;
+        right:0;
+        font-size: 6vh;
+    }
+    
+    .top{
+        height:100vh;
+        background-color: #E3DECC;
+    }
+    
+    .foot{
+        text-align: center;
+        height:10vh;
+        background-color:black;
+    }
+    
+    
+    @keyframes changeColor{
+/*        linear-gradient(to bottom, #fffcfc 0%,#eae3e3 100%);*/
+        0%   {fill: #FFFFFF;}
+        50%   {fill: #777; }
+        100% {fill: #000; }
+        
+    }
+    
+    
+</style>
+    
+<head>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100,400|Indie+Flower' rel='stylesheet' type='text/css'>
+    
+    <title>ISB STUDENT COUNCIL</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="js.js"></script>
+    <script src="jquery.min2.js"></script> 
+</head>
+<body>
+
+    <div class="head">
+                    <img src="images/sc.svg" class="logo">
+
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="meeting.html">Meeting Notes</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="center-title">
+            <h1>ISB STUDENT COUNCIL</h1>
+            <a href="#about"><svg class="downarrow" width="100" height="100" viewBox="0 0 258 258" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fill-rule="evenodd">
+                    <path class="circle" d="M129 258c71.245 0 129-57.755 129-129S200.245 0 129 0 0 57.755 0 129s57.755 129 129 129z" fill="#E94F37"/>
+                    <path class="whitearrow" d="M42 86.562h15.5l71.25 71.25 71.5-71.5H216l-85.376 85.376h-2.766l-85.86-85.126z" fill="#FFF"/>
+                </g>
+            </svg>
+            </a>
+            
+            <br>        
+        </div>
+        
+    
+    </div>
+   
+    <div class="top">
+        <div id="about">
+        
+        <h1>About Us</h1>
+        
+        </div>
+    
+    </div>
+    
+    <div class="middle">
+    
+    </div>
+    
+    <div class="bottom">
+    
+    </div>
+    
+    <div class="foot">
+        <p style="padding-top:30px;color:white;">Copyright 2015-2016 ISB Student Council. Made by Daiki and the Software Development Club.</p>    
+    
+    </div>
+</body>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});    
+</script>    
+    
+</html>
