@@ -1,0 +1,14 @@
+<svg width="540" height="481" viewBox="0 0 540 481" xmlns="http://www.w3.org/2000/svg">
+  <title>
+    Form
+  </title>
+  <g transform="translate(0 -1)" fill="none" fill-rule="evenodd">
+    <path d="M0 21C0 9.953 8.945 1 20.002 1h395.03C450.02 1 540 64.98 540 86.97V462c0 11.046-8.95 20-20 20H20c-11.045 0-20-8.955-20-20V21z" fill="#C5D86D"/>
+    <path d="M91 169c14.36 0 26-11.64 26-26s-11.64-26-26-26-26 11.64-26 26 11.64 26 26 26zM91 267c14.36 0 26-11.64 26-26s-11.64-26-26-26-26 11.64-26 26 11.64 26 26 26zM91 365c14.36 0 26-11.64 26-26s-11.64-26-26-26-26 11.64-26 26 11.64 26 26 26z" fill="#FFF"/>
+    <rect fill="#FFF" x="179" y="117" width="296" height="52" rx="20"/>
+    <rect fill="#FFF" x="179" y="215" width="296" height="52" rx="20"/>
+    <rect fill="#FFF" x="179" y="313" width="296" height="52" rx="20"/>
+    <path d="M415 87h125v86L415 87z" opacity=".098" fill="#000"/>
+    <path d="M415 1c28-.5 125 53.5 125 86H415V1z" fill="#D8ED77"/>
+  </g>
+</svg>

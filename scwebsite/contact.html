@@ -4,13 +4,17 @@
     *{
         margin:0;
         font-family: 'Roboto', sans-serif;
-        font-weight: 100;
-        font-color:1A1A1A;
+        color:1A1A1A;
+        text-decoration: none;
+
     }
     
-    
-       .logo{
-        padding-bottom:  10vh;
+    body{
+        position: relative;
+        font-weight: 100;
+    }
+    .logo{
+        padding-bottom:  5vh;
         width:100px;
         display: block;
         margin-left: auto;
@@ -21,12 +25,22 @@
 /*END OF NAV*/
 /*WOW STUFF*/
     .head{
-        padding-top:10vh;
-        height:90vh;
+        padding-top:5vh;
+        height:95vh;
         background-color: #FFFCF2;
+        position: relative;
 
         
     }
+    
+    .wrap { width: 95vw; height: 75vh;padding: 0; overflow:hidden;}
+    .frame { width: 300vw; height: 190vh; }
+    .frame {
+
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0;
+    }
+    
     nav{
         border-bottom:1px solid #ccc;
         border-width:1px 0;
@@ -64,8 +78,88 @@
         height:10vh;
         background-color:black;
     }
+
+    .color{
+        position:absolute;
+        text-align: center;
+        left:0;
+        top:105vh;
+        right:0;
+        font-weight: 400;
+    }
+    .head h1{
+        float:left;
+        font-size: 10vw;
+        font-weight: 100;
+    }
     
+    .contactholder{
+        position: absolute;
+        width:50vw;
+        height:50vh;
+        background-color: #FF4949;
+        border-radius: 20px;
+        top:35vh;
+        left:45vw; right:2vw;
+        margin:auto;
+        padding: 3vh;
+    }
+    .info{
+        height:45vh;
+    }
     
+    .infoholder{
+        padding:1vh;
+        width:40vw;
+        height:10vh;
+        font-size:2vw;
+        
+    }
+    .infoholder h2{
+        margin-left: 2vw;
+        display:inline-block;
+        float:right;
+        
+
+        
+    }
+    .infoholder img{
+        width:10%;
+        display:inline-block;
+        float: left;
+    }
+    
+    .mailsvg:hover .paper{
+        animation:riseUp 1s ease forwards;
+    }
+    
+    @keyframes riseUp{
+ 0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+    }
+    
+    @keyframes scaleS{
+    0% {
+    transform: scale(1);
+  }
+        50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+    }
+    .scaler{
+        animation: scaleS 1s ease forwards;
+    }
     
     
     
@@ -96,20 +190,71 @@
             </ul>
         </nav>
         
+        <h1>Contact <br> Us</h1>
+        <div class="contactholder">
+            <div class="info">
+                <div class="infoholder"><!--Mail-->
+                          
+                    <svg id="mailsvg" preserveAspectRatio="xMinYMin" width="90" height="600" viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg">
+
+                            <g id="mailsvg" fill="none" fill-rule="evenodd">
+                <g class="paper">
+                <rect fill="#A82C2C" y="109" width="540" height="372" rx="20"/>
+                <rect fill="#FDFDFD" x="37" width="466" height="400" rx="10"/>
+                <rect fill="#FF7C7C" x="37" width="466" height="33.913" rx="10"/>
+                <path d="M92.5 80.5h356.114M92.5 106.5h356.114M92.5 132.5h356.114M92.5 54.5h356.114M92.5 158.5h356.114M92.5 184.5h356.114" stroke="#979797" stroke-width="5" stroke-linecap="square" opacity=".451"/>
+                    </g>
+                <path  d="M253.53 306.346l32.94-22.692 237.06-163.308C532.625 114.08 540 117.954 540 129v332c0 11.046-8.95 20-20 20H20c-11.045 0-12.62-5.084-3.53-11.346l237.06-163.308z" fill="#FF6262"/>
+                <path d="M0 129c0-11.046 7.38-14.916 16.47-8.654l237.06 163.308 32.94 22.692 237.06 163.308C532.625 475.92 531.05 481 520 481H20c-11.045 0-20-8.954-20-20V129z" fill="#DE3B3B"/>
+                </g>
+                    </svg>
+                    <h2 id="mailsvg">Email Us</h2>
+              
+                
+                </div>
+                <div class="infoholder"><!--Facebook-->
+                    <svg class="facebooksvg" preserveAspectRatio="xMinYMin" width="90" height="300" viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg">
+
+  <g fill="none" fill-rule="evenodd">
+    <rect stroke="#39A5E0" stroke-width="25" fill="#0C6291" width="540" height="481" rx="20"/>
+    <path d="M227.03 394.895V229.27h-30.468v-45.704h30.47V161.69c0-24.348 7.29-43.032 21.874-56.053 14.584-13.02 35.22-19.532 61.914-19.532 4.948 0 10.026.36 15.235 1.075 5.208.716 11.002 1.725 17.382 3.027l-4.882 48.633c-3.516-.65-6.673-1.14-9.473-1.465-2.8-.326-6.217-.488-10.254-.488-8.203 0-14.518 2.148-18.945 6.445-4.427 4.297-6.64 10.417-6.64 18.36v21.874h41.015v45.704h-41.016v165.625h-66.21z" fill="#39A5DF"/>
+  </g>
+</svg>
+                    <h2>Facebook</h2>
+
+                
+                </div>
+                <div class="infoholder"><!--Form-->
+                   <svg class="formsvg" preserveAspectRatio="xMinYMin" width="90" height="300" viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg">
+  <title>
+    Form
+  </title>
+  <g transform="translate(0 -1)" fill="none" fill-rule="evenodd">
+    <path d="M0 21C0 9.953 8.945 1 20.002 1h395.03C450.02 1 540 64.98 540 86.97V462c0 11.046-8.95 20-20 20H20c-11.045 0-20-8.955-20-20V21z" fill="#C5D86D"/>
+    <path d="M91 169c14.36 0 26-11.64 26-26s-11.64-26-26-26-26 11.64-26 26 11.64 26 26 26zM91 267c14.36 0 26-11.64 26-26s-11.64-26-26-26-26 11.64-26 26 11.64 26 26 26zM91 365c14.36 0 26-11.64 26-26s-11.64-26-26-26-26 11.64-26 26 11.64 26 26 26z" fill="#FFF"/>
+    <rect fill="#FFF" x="179" y="117" width="296" height="52" rx="20"/>
+    <rect fill="#FFF" x="179" y="215" width="296" height="52" rx="20"/>
+    <rect fill="#FFF" x="179" y="313" width="296" height="52" rx="20"/>
+    <path d="M415 87h125v86L415 87z" opacity=".098" fill="#000"/>
+    <path d="M415 1c28-.5 125 53.5 125 86H415V1z" fill="#D8ED77"/>
+  </g>
+</svg>
+
+                    <h2>Suggestion Box</h2>
+
+                </div>
+            
+            </div>
+            <div class="map">
+            
+            
+            </div>
         
-    
-    </div>
-   
-    <div class="top">
-    
-    </div>
-    
-    <div class="middle">
-    
-    </div>
-    
-    <div class="bottom">
-    
+        
+        
+        </div>
+        
+        
     </div>
     
     <div class="foot">
@@ -117,4 +262,16 @@
     
     </div>
 </body>
+<script type="text/javascript">
+jQuery.noConflict();
+$(document).ready(function(){
+	$(".logo").click(function() {
+		$("#mailsvg").addClass("scaler");
+	});
+});
+    
+</script>    
+    
+    
 </html>
+

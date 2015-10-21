@@ -9,7 +9,7 @@
     }
     
     .logo{
-        padding-bottom:  10vh;
+        padding-bottom:  5vh;
         width:100px;
         display: block;
         margin-left: auto;
@@ -20,8 +20,8 @@
 /*END OF NAV*/
 /*WOW STUFF*/
     .head{
-        padding-top:10vh;
-        height:90vh;
+        padding-top:5vh;
+        height:95vh;
         background-color: #FFFCF2;
 
         
@@ -63,8 +63,124 @@
         height:10vh;
         background-color:black;
     }
+
     
+    /*Start of Member Columns*/
+    /*Two Columns*/
+    #containerLarge {
+	   clear:left;
+	   float:left;
+	   width:100%;
+	   overflow:hidden;
+    }
+    #container1 {
+	   float:left;
+	   width:100%;
+	   position:relative;
+	   right:50%;
+    }   
+    #col1 {
+	   float:left;
+	   width:46%;
+	   position:relative;
+	   left:52%;
+	   overflow:hidden;
+    }
+    #col2 {
+	   float:left;
+	   width:46%;
+	   position:relative;
+	   left:56%;
+	   overflow:hidden;
+    }
+    #doublecontainer{
+        padding:20px;
+        background-color: #3F88C5;
+        height:40%;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+    }
     
+
+
+    
+    /*Three Columns*/
+    
+    #container2 {
+	   clear:left;
+	   float:left;
+	   width:100%;
+	   position:relative;
+	   right:33.333%;
+    }
+    #container3-1 {
+	   float:left;
+	   width:100%;
+	   position:relative;
+	   right:33.33%;
+    
+    }
+    #container3-1 h2{
+        font-size: 100%;
+    }
+    #col3-1 {
+	   float:left;
+	   width:29.33%;
+	   position:relative;
+	   left:68.67%;
+	   overflow:hidden;
+    }
+    #col3-2 {
+	   float:left;
+	   width:29.33%;
+	   position:relative;
+	   left:72.67%;
+	   overflow:hidden;
+    }
+    #col3-3 {
+	   float:left;
+	   width:29.33%;
+	   position:relative;
+	   left:76.67%;
+	   overflow:hidden;
+    }
+    
+    #tripcontainer{
+        padding:20px;
+        background-color: #3F88C5;
+        height:30%;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        margin-top: 10%;
+    }
+    #tripcontainer h3{
+        font-size:70%;
+    }
+    
+    #tripcontainer img{
+        width:40%;
+        float:left;
+        padding:5%;
+        border-radius: 20px;
+    }
+
+    /*End of Columns*/
+    /*Image Placeholders*/
+    /*Double Image*/
+    #doublecontainer img{
+        width:40%;
+        float:left;
+        padding:10px;
+        border-radius: 20px;
+    }
+    #memberContainerText{
+        position: absolute;
+        top:40%;
+        left: 40%; right:0;
+        color: white;
+    }
     
     
     
@@ -95,11 +211,92 @@
             </ul>
         </nav>
         
+        <h1>Members</h1>
+<!--        Members-->
+        <!--Start of Top Two Members-->
+        <div id="containerLarge"><!--Container 2-->
+            <div id="container1">
+                <div id="col1"><!--Column 1-->
+                    <!--Siri-->
+                    <div id="doublecontainer">
+                    <img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Siri Jo Asadatorn</h2>
+                            <h3>Student Council Cabinet President</h3>
+                        </div>
+                    </div>
+                </div><!--End Column 1-->
+                <div id="col2">
+                    <!--Helen-->
+                    <div id="doublecontainer">
+                    <img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Helen Chang</h2>
+                            <h3>Student Council Cabinet Vice President</h3>
+                        </div>
+                    </div>
+			    
+                </div>
+            </div><!--End Container 1-->
+        </div><!--End Container 2-->
         
-    
+        
+        
     </div>
    
     <div class="top">
+        <div id="containerLarge">
+	<div id="container2">
+		<div id="container3-1">
+			<div id="col3-1">
+				<!-- Column one start -->
+                
+				<div id="tripcontainer">
+                    <img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Siri Jo Asadatorn</h2>
+                            <h3>Student Council Cabinet President</h3>
+                        </div>
+                </div>
+                
+                <div id="tripcontainer">
+                    <img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Siri Jo Asadatorn</h2>
+                            <h3>Student Council Cabinet President</h3>
+                        </div>
+                </div>
+                
+				
+				<!-- Column one end -->
+			</div>
+			<div id="col3-2">
+				<!-- Column two start -->
+				<div id="tripcontainer">
+                    <img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Siri Jo Asadatorn</h2>
+                            <h3>Student Council Cabinet President</h3>
+                        </div>
+                    </div>
+				<!-- Column two end -->
+			</div>
+			<div id="col3-3">
+				<!-- Column three start -->
+				<div id="tripcontainer">
+                    <img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Siri Jo Asadatorn</h2>
+                            <h3>Student Council Cabinet President</h3>
+                        </div>
+                    </div>
+
+				<!-- Column three end -->
+			</div>
+		</div>
+	</div>
+</div>
+        
     
     </div>
     
@@ -107,10 +304,7 @@
     
     </div>
     
-    <div class="bottom">
-    
-    </div>
-    
+   
     <div class="foot">
         <p style="padding-top:30px;color:white;">Copyright 2015-2016 ISB Student Council. Made by Daiki and the Software Development Club.</p>    
     
