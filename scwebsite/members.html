@@ -1,5 +1,6 @@
 <html>
 <!--Temp Stylesheet-->
+    
 <style>
     *{
         margin:0;
@@ -54,7 +55,7 @@
     }
     
     .top{
-        height:90vh;
+        height:250vh;
         background-color: #E3DECC;
     }
     
@@ -149,7 +150,7 @@
     #tripcontainer{
         padding:20px;
         background-color: #3F88C5;
-        height:30%;
+        height:25vh;
         border-radius: 10px;
         text-align: center;
         position: relative;
@@ -195,6 +196,8 @@
     <script src="jquery-ui.js"></script>
     <script src="js.js"></script>
     <script src="jquery.min2.js"></script> 
+    <script src="jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="jquery.modal.css" type="text/css" media="screen" />
 </head>
 <body>
 
@@ -211,7 +214,8 @@
             </ul>
         </nav>
         
-        <h1>Members</h1>
+        <h1 style="text-align: center">Members</h1>
+        <br>
 <!--        Members-->
         <!--Start of Top Two Members-->
         <div id="containerLarge"><!--Container 2-->
@@ -219,21 +223,23 @@
                 <div id="col1"><!--Column 1-->
                     <!--Siri-->
                     <div id="doublecontainer">
-                    <img src="images/members/siri.jpg">
+                        <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
                         <div id="memberContainerText">
                             <h2>Siri Jo Asadatorn</h2>
                             <h3>Student Council Cabinet President</h3>
                         </div>
+                        </a>
                     </div>
                 </div><!--End Column 1-->
                 <div id="col2">
                     <!--Helen-->
                     <div id="doublecontainer">
-                    <img src="images/members/siri.jpg">
+                        <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
                         <div id="memberContainerText">
                             <h2>Helen Chang</h2>
-                            <h3>Student Council Cabinet Vice President</h3>
+                            <h3>Student Council Cabinet Vice-President</h3>
                         </div>
+                        </a>
                     </div>
 			    
                 </div>
@@ -252,19 +258,57 @@
 				<!-- Column one start -->
                 
 				<div id="tripcontainer">
-                    <img src="images/members/siri.jpg">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
                         <div id="memberContainerText">
-                            <h2>Siri Jo Asadatorn</h2>
-                            <h3>Student Council Cabinet President</h3>
+                            <h2>Ice</h2>
+                            <h3>Cold</h3>
                         </div>
+                    </a>
                 </div>
                 
                 <div id="tripcontainer">
-                    <img src="images/members/siri.jpg">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
                         <div id="memberContainerText">
-                            <h2>Siri Jo Asadatorn</h2>
-                            <h3>Student Council Cabinet President</h3>
+                            <h2>Shania Pensuk</h2>
+                            <h3>Senior</h3>
                         </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Josh Uphadyayayyayayyayayayyaya</h2>
+                            <h3>yayayyayayyayayya</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Variya Tongtip</h2>
+                            <h3>Junior</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#daikiP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Daiki Shinomiya</h2>
+                            <h3>Design</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Guy</h2>
+                            <h3>is the Guy</h3>
+                        </div>
+                    </a>
                 </div>
                 
 				
@@ -273,23 +317,115 @@
 			<div id="col3-2">
 				<!-- Column two start -->
 				<div id="tripcontainer">
-                    <img src="images/members/siri.jpg">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
                         <div id="memberContainerText">
-                            <h2>Siri Jo Asadatorn</h2>
-                            <h3>Student Council Cabinet President</h3>
+                            <h2>Dan Borenstein</h2>
+                            <h3>The Man</h3>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Toby Wertime</h2>
+                            <h3>MUNMUNMUNMUNMUNMUN</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Carolina Zeitune</h2>
+                            <h3>Sophomore</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Seung Won Paek</h2>
+                            <h3>Swan Pek</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#sueP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Sue Yoon</h2>
+                            <h3>Swag</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Raphael Romasanta</h2>
+                            <h3>Fresh</h3>
+                        </div>
+                    </a>
+                </div>
 				<!-- Column two end -->
 			</div>
 			<div id="col3-3">
 				<!-- Column three start -->
 				<div id="tripcontainer">
-                    <img src="images/members/siri.jpg">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
                         <div id="memberContainerText">
-                            <h2>Siri Jo Asadatorn</h2>
-                            <h3>Student Council Cabinet President</h3>
+                            <h2>Adit</h2>
+                            <h3>ADITIYAYAYYAYYAYA</h3>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Peter Ohashi</h2>
+                            <h3>Chopsticks</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Varisa Limpijankit</h2>
+                            <h3>French</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Milind Gandhi</h2>
+                            <h3>be the change you wish to see in the world</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Lulu</h2>
+                            <h3>lulullululululululululluu</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div id="tripcontainer">
+                   <a href="#siriP" rel="modal:open"><img src="images/members/siri.jpg">
+                        <div id="memberContainerText">
+                            <h2>Agam Bedi</h2>
+                            <h3>AGAM BEDIEVE IT!!!!</h3>
+                        </div>
+                    </a>
+                </div>
 
 				<!-- Column three end -->
 			</div>
@@ -311,3 +447,45 @@
     </div>
 </body>
 </html>
+
+
+
+
+
+<!--!Hidden-->
+<!--Student Council Biographies!-->
+<div >
+    
+
+<div id="siriP" style="display:none">
+    <p>Siriously. No.  <br><a href="#" rel="modal:close">Close</a> </p>
+</div>
+
+<div id="daikiP" style="display:none">
+    <p>Design man <br>NO CLOSE BUTTON FOR YOU! </p>
+</div>    
+    
+<div id="sueP" style="display:none">
+    <p>I like music and making good choices. <br><a href="#" rel="modal:close">Close</a> </p>
+</div>
+    
+<div id="temP" style="display:none">
+    <p>Biography <br><a href="#" rel="modal:close">Close</a> </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
