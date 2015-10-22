@@ -205,16 +205,20 @@ $(function() {
 }); 
     
     
-var kkeys = [], konami = "76,65,79,82,78,85,65,76";
-$(document).keydown(function(e) {
-  kkeys.push( e.keyCode );
-  if ( kkeys.toString().indexOf( konami ) >= 0 ){
-    $(document).unbind('keydown',arguments.callee);
-    $.getScript('cornify-mod.js',function(){
-      cornify_add();
-      $(document).keydown(cornify_add);
-    });
-  }
+var konami_keys = [76,65,79,82,78,85,65,76];
+var konami_index = 0;
+$(document).keydown(function(e){
+    if(e.keyCode === konami_keys[konami_index++]){
+        if(konami_index === konami_keys.length){
+            $(document).unbind('keydown', arguments.callee);
+            $.getScript('http://hatterkiller.github.io/scwebsite/cornify-mod.js',function(){
+                cornify_add();
+                $(document).keydown(cornify_add);
+            }); 
+        }
+    }else{
+        konami_index = 0;
+    }
 });
 </script>    
     

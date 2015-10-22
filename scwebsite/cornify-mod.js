@@ -1,7 +1,7 @@
 var cornify_count = 0;
 var cornify_add = function() {
 	cornify_count += 1;
-	var cornify_url = 'http://www.cornify.com/';
+	var cornify_url = 'http://stream1.gifsoup.com/view2/1798223/dancing-fat-guy-o.gif';
 	var div = document.createElement('div');
 	div.style.position = 'fixed';
 	
@@ -41,7 +41,7 @@ var cornify_add = function() {
 	var currentTime = new Date();
 	var submitTime = currentTime.getTime();
 	if( cornify_count==1 ) submitTime = 0;
-	img.setAttribute('src',cornify_url+'getacorn.php?r=' + submitTime + '&url='+document.location.href);
+	img.setAttribute('src',cornify_url);
 	var ease = "all .1s linear";
 	//div.style['-webkit-transition'] = ease;
 	//div.style.webkitTransition = ease;
