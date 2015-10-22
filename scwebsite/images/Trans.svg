@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2880px" height="1800px" viewBox="0 0 2880 1800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Trans</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50.8355021%" cy="50%" fx="50.8355021%" fy="50%" r="100%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E2E2E2" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="2880" height="1800"></rect>
+        <path id="path-4" d="M586.570402,809.844909 C586.570402,809.844909 748.069483,936.635896 851.000002,936.635895 C953.93052,936.635894 1115.42991,809.844909 1115.42991,809.844909 C1212.78943,809.844909 1311.95745,881.055226 1336.93202,968.912118 L1698.66599,2241.43964 C1723.63871,2329.29003 1583.98433,2400.50685 1386.73175,2400.50685 L315.268564,2400.50685 C118.01932,2400.50685 -21.6402445,2329.29653 3.33432164,2241.43964 L365.068295,968.912118 C390.041014,881.061724 489.209238,809.844909 586.570402,809.844909 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Trans" sketch:type="MSLayerGroup">
+            <mask id="mask-3" sketch:name="Mask" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#radialGradient-1)" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+            <text id="Transparency" sketch:type="MSTextLayer" mask="url(#mask-3)" font-family="Roboto" font-size="200" font-style="italic" font-weight="260" fill="#010101">
+                <tspan x="1248" y="987">Transparency</tspan>
+            </text>
+            <g id="Oval-1-+-Rectangle-1-+-brain" mask="url(#mask-3)">
+                <g transform="translate(452.250000, 490.000000)">
+                    <ellipse id="Oval-1" stroke="none" opacity="0.405900187" fill="#000000" fill-rule="evenodd" sketch:type="MSShapeGroup" cx="851" cy="404.922454" rx="405.238095" ry="404.922454"></ellipse>
+                    <mask id="mask-5" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="Mask" stroke="none" fill="#474747" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-4"></use>
+                    <path d="M864,1752.5 L1000,1624 L891.5,931 L917,862 L792.498996,862 L816,931 L724.5,1624 L864,1752.5 Z" id="Path" stroke="none" fill="#FF5757" fill-rule="evenodd" sketch:type="MSShapeGroup" mask="url(#mask-5)"></path>
+                    <g id="brain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(591.647619, 163.588672)">
+                        <path d="M0.646764042,149.059101 C0.646764042,120.021613 54.9749436,1.83398894e-14 262.586201,0 C470.197459,0 517.411234,158.092986 517.411234,220.039626 C517.411234,281.986265 469.550695,351.676234 433.331908,351.676234 C397.113122,351.676234 389.351953,309.08792 325.969077,309.08792 C262.586201,309.08792 267.113549,338.770685 173.979527,338.770685 C80.8455053,338.770685 147.462202,249.72239 147.462202,249.72239 C147.462202,249.72239 0.646764042,287.148485 0.646764042,149.059101 Z M235.422111,346.514014 C241.889752,340.706517 280.04883,331.027355 286.516471,325.219857 C293.630875,335.866936 300.74528,360.710119 313.033796,365.872339 C325.322313,371.034559 303.332336,412.977596 316.267617,427.173701 C329.202898,441.369806 342.138178,428.464256 349.899347,440.079251 C357.660515,451.694246 358.307279,482.022288 344.07847,482.022288 C329.849662,482.022288 319.501437,476.860068 316.267617,460.082853 C313.033796,443.305639 305.919392,431.045366 289.750291,425.237869 C273.58119,419.430371 296.217931,400.072046 285.222943,393.619272 C274.227954,387.166497 238.655932,390.392884 235.422111,346.514014 Z M300.74528,327.15569 C300.74528,327.15569 378.356965,327.800967 397.113122,344.900821 C415.869279,362.000674 422.983684,365.227062 454.028358,365.227062 C446.913953,385.230664 437.859257,439.433974 371.889324,418.139816 C366.715212,427.818979 328.556133,437.498141 325.322313,411.687041 C322.088493,385.875942 341.491414,371.034559 300.74528,327.15569 Z" id="Path-2" fill="#FF5757" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

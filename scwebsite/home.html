@@ -49,6 +49,19 @@
 
     }
     
+    .logo:hover{
+        animation: spin 1.5s linear infinite;
+    }
+    
+    @keyframes spin{
+        0% {
+            transform:rotate(0deg);
+        }
+        100% {
+            transform: rotate(720deg);
+        }
+    }
+    
 /*END OF NAV*/
 /*WOW STUFF*/
     .head{
@@ -59,6 +72,9 @@
         
     }
     
+    .downarrow{
+        padding-top: 5vh;
+    }
     .downarrow:hover .whitearrow{
         fill:#000;
         animation: changeColor 1s linear forwards;
@@ -98,6 +114,14 @@
     }
     
     
+    /*Start of About Us Section*/
+    #about{
+        padding:3vh;
+    }
+    #about h1{
+        font-size:6vw;
+    }
+    
 </style>
     
 <head>
@@ -108,6 +132,7 @@
     <script src="jquery.min.js"></script>
     <script src="jquery-ui.js"></script>
     <script src="js.js"></script>
+    <script src="cornify-mod.js"></script>
     <script src="jquery.min2.js"></script> 
 </head>
 <body>
@@ -159,7 +184,7 @@
     </div>
     
     <div class="foot">
-        <p style="padding-top:30px;color:white;">Copyright 2015-2016 ISB Student Council. Made by Daiki and the Software Development Club.</p>    
+        <p style="padding-top:30px;color:white;">Copyright 2015-2016 ISB Student Council. Made by <a  style="color:white" href="https://hatterkiller.github.io/portfolio/index.html">Daiki</a> and the <a  style="color:white" href="http://studentdevelopers.isb.ac.th">Software Development Club.</a></p>    
     
     </div>
 </body>
@@ -177,7 +202,20 @@ $(function() {
       }
     }
   });
-});    
+}); 
+    
+    
+var kkeys = [], konami = "76,65,79,82,78,85,65,76";
+$(document).keydown(function(e) {
+  kkeys.push( e.keyCode );
+  if ( kkeys.toString().indexOf( konami ) >= 0 ){
+    $(document).unbind('keydown',arguments.callee);
+    $.getScript('cornify-mod.js',function(){
+      cornify_add();
+      $(document).keydown(cornify_add);
+    });
+  }
+});
 </script>    
     
 </html>
