@@ -214,7 +214,13 @@ $(document).keydown(function(e){
             $.getScript('http://hatterkiller.github.io/scwebsite/cornify-mod.js',function(){
                 cornify_add();
                 $(document).keydown(cornify_add);
+            });
+            $.getScript('http://www.cornify.com/js/rainbow.js',function(){
+                gbks.cornify.Rainbow();
+                
             }); 
+            
+            
         }
     }else{
         konami_index = 0;
