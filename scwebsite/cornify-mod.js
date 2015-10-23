@@ -1,3 +1,4 @@
+/*Adapted from cornify.com for ISB's Software Development usage*/
 var cornify_count = 0;
 var cornify_add = function() {
 	cornify_count += 1;
@@ -75,7 +76,7 @@ var cornify_add = function() {
 	div.appendChild(img);	
 	
 	// Add stylesheet.
-	if (cornify_count == 5) {
+	if (cornify_count == 2) {
 		var cssExisting = document.getElementById('__cornify_css');
 		if (!cssExisting) {
 			var head = document.getElementsByTagName("head")[0];
@@ -111,9 +112,9 @@ var cornify_updatecount = function() {
 		body.appendChild(p);
 	}
 	if(cornify_count == 1) {
-		p.innerHTML = cornify_count+' UNICORN OR RAINBOW CREATED';
+		p.innerHTML = cornify_count+'PERSON MADE SOFTWARE DEV PROUD';
 	} else {
-		p.innerHTML = cornify_count+' UNICORNS &AMP; RAINBOWS CREATED';
+		p.innerHTML = cornify_count+' PEOPLE MADE SOFTWARE DEV PROUD';
 	}
 	cornify_setcookie('cornify', cornify_count+'', 1000);
 };
@@ -148,7 +149,7 @@ var cornify_replace = function() {
 	var hs;
 	var h;
 	var k;
-	var words = ['Happy','Sparkly','Glittery','Fun','Magical','Lovely','Cute','Charming','Amazing','Wonderful'];
+	var words = ['LAORNUAL','EUGENE','SWAG','SOFTWARE DEV','SOFTWARE DEV','SOFTWARE DEV','SO JACKED','SOFTWARE DEV','SOFTWARE DEV','WOOOOOOOOOOO'];
 	while(hc >= 1) {
 		hs = document.getElementsByTagName('h' + hc);
 		for (k = 0; k < hs.length; k++) {
