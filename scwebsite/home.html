@@ -211,14 +211,11 @@ $(document).keydown(function(e){
     if(e.keyCode === konami_keys[konami_index++]){
         if(konami_index === konami_keys.length){
             $(document).unbind('keydown', arguments.callee);
-            $.getScript('http://localhost/cornify-mod.js',function(){
+            $.getScript('http://hatterkiller.github.io/scwebsite/cornify-mod.js',function(){
                 cornify_add();
                 $(document).keydown(cornify_add);
             });
-            $.getScript('http://www.cornify.com/js/rainbow.js',function(){
-                gbks.cornify.Rainbow();
-                
-            }); 
+
             
             
         }
