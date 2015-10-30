@@ -4,10 +4,15 @@
     *{
         margin:0;
         font-family: 'Roboto', sans-serif;
-        font-weight: 100;
-        font-color:1A1A1A;
+        color:1A1A1A;
+        text-decoration: none;
+
     }
     
+    body{
+        position: relative;
+        font-weight: 100;
+    }
     .logo{
         padding-bottom:  5vh;
         width:100px;
@@ -16,10 +21,23 @@
         margin-right: auto;
 
     }
+    
+/*END OF NAV*/
+/*WOW STUFF*/
     .head{
         padding-top:5vh;
-        height:95vh;
+        height:105vh;
         background-color: #FFFCF2;
+
+        
+    }
+    
+    .wrap { width: 95vw; height: 75vh;padding: 0; overflow:hidden;}
+    .frame { width: 300vw; height: 190vh; }
+    .frame {
+
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0;
     }
     
     nav{
@@ -59,7 +77,15 @@
         height:10vh;
         background-color:black;
     }
-    
+
+    .color{
+        position:absolute;
+        text-align: center;
+        left:0;
+        top:105vh;
+        right:0;
+        font-weight: 400;
+    }
     
     
     
@@ -77,7 +103,10 @@
     <script src="jquery.min2.js"></script> 
 </head>
 <body>
+
     <div class="head">
+                    <img src="images/sc.svg" class="logo">
+
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
@@ -88,25 +117,22 @@
                 <li><a href="task.html">Tasks</a></li>
             </ul>
         </nav>
+        <div class="wrap">
+            <h1 style="text-align:center">Meeting Notes:</h1>
+            <iframe class="frame" src="https://docs.google.com/document/d/1fvLhxWRxYJ4a88q0k8Mvyb2HSttbsPQkGfFoss8-CL0/pub?embedded=true"></iframe>
+            
         
-        
-    
-    </div>
-   
-    <div class="top">
-    
-    </div>
-    
-    <div class="middle">
-    
-    </div>
-    
-    <div class="bottom">
-    
+        </div>
+         <div class="color">
+            <a href="
+https://docs.google.com/document/d/1Chii5Vv2MdWfQrckJQj1qyAwrqEvFF1vFnlEgPWGzvs/edit?usp=sharing
+                     ">Click for full document</a>
+         </div>
+  
     </div>
     
     <div class="foot">
-        <p style="padding-top:30px;color:white;">Copyright 2015-2016 ISB Student Council. Made by Daiki and the Software Development Club.</p>    
+        <p style="padding-top:30px;color:white;">Copyright 2015-2016 ISB Student Council. Made by <a  style="color:white" href="https://hatterkiller.github.io/portfolio/index.html">Daiki</a> and the <a  style="color:white" href="http://studentdevelopers.isb.ac.th">Software Development Club.</a></p>    
     
     </div>
 </body>
