@@ -1,129 +1,5 @@
 <html>
-<!--Temp Stylesheet-->
-<style>
-    *{
-        margin:0;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 100;
-        font-color:1A1A1A;
-        text-decoration: none;
-    }
-    
-    body{
-        position: relative;
-    }
-/*NAV*/
-    nav{
-        border-bottom:1px solid #ccc;
-        border-width:1px 0;
-        list-style:none;
-        margin:0;
-        padding-bottom: 5vh;
-        text-align:center;
-    }
-    
-    nav ul{
-        list-style-type: none;
-        margin: 0;
-    }
-    nav ul li{
-        text-align: center;
-        display: inline;
-        padding:0 5vw 3vh 5vw;
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-        color:black;
-    }
-    nav ul li a:hover{
-        font-weight: 200;
-    }
-    
-    .logo{
-        padding-bottom:  5vh;
-        width:100px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
 
-    }
-    
-    .logo:hover{
-        animation: spin 1.5s linear infinite;
-    }
-    
-    @keyframes spin{
-        0% {
-            transform:rotate(0deg);
-        }
-        100% {
-            transform: rotate(720deg);
-        }
-    }
-    
-/*END OF NAV*/
-/*WOW STUFF*/
-    .head{
-        padding-top:5vh;
-        height:95vh;
-        background-color: #FFFCF2;
-
-        
-    }
-    
-    .downarrow{
-        padding-top: 5vh;
-    }
-    .downarrow:hover .whitearrow{
-        fill:#000;
-        animation: changeColor 1s linear forwards;
-        animation-fill-mode: forwards;
-    }
-    
-    .whitearrow{
-    }
-    
-    .center-title{
-        position:absolute;
-        text-align: center;
-        left:0;
-        top:50vh;
-        right:0;
-        font-size: 6vh;
-    }
-    
-    .top{
-        height:100vh;
-        background-color: #E3DECC;
-    }
-    
-    .foot{
-        text-align: center;
-        height:10vh;
-        background-color:black;
-    }
-    
-    
-    @keyframes changeColor{
-/*        linear-gradient(to bottom, #fffcfc 0%,#eae3e3 100%);*/
-        0%   {fill: #FFFFFF;}
-        50%   {fill: #777; }
-        100% {fill: #000; }
-        
-    }
-    
-    
-    /*Start of About Us Section*/
-    #about{
-        padding:3vh;
-    }
-    #about h1{
-        font-size:6vw;
-    }
-    
-</style>
-    
 <head>
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,400|Indie+Flower' rel='stylesheet' type='text/css'>
     
@@ -168,10 +44,60 @@
     </div>
    
     <div class="top">
-        <div id="about">
+        <div id="about" style="position:relative; height:100vh">
         
         <h1>About Us</h1>
-        
+        The ISB Student Council, is an elected group of students, comprised of four class councils, and a student council cabinet. This years group of participants can be found on the "members" tab.
+<br>
+The Student Council is tasked with both addressing student issues with specific committees, as well as planning and organising events ranging from assemblies to dances. Official minutes recording the committee meetings can be found in the "Meeting Notes" Tab.
+<br>
+If you have any issues to bring forward to the Student Council you may approach any of the members, or simply use the contact page.
+            
+            
+            <style>
+            
+                .contact{
+                    width:50vw;
+                    height:25vh;
+                    position: absolute;
+                    margin: auto;
+                    top: 25vh;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    text-align: center;
+                }
+                .contact a {
+                    color:black;
+                    font-weight: 400;
+                    padding-left:2vw;
+                    padding-right:2vw;
+                    border: solid 1px RGBA(71, 72, 75, 0.4);
+                }
+                
+            
+            
+            </style>
+            <div class="contact">
+            
+            <h2>Contact Us!</h2>
+                <a class="contactbutton" href="facebook">Facebook</a>
+                <a class="contactbutton" href="facebook">Email</a>
+                <a class="contactbutton" href="facebook">Form</a>
+            
+            
+            
+            
+            
+            
+            
+            </div>
+            
+            
+            
+            
+            
+            
         </div>
     
     </div>

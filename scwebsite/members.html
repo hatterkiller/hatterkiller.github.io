@@ -2,185 +2,10 @@
 <!--Temp Stylesheet-->
     
 <style>
-    *{
-        margin:0;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 100;
-        font-color:1A1A1A;
-    }
     
-    .logo{
-        padding-bottom:  5vh;
-        width:100px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-    
-/*END OF NAV*/
-/*WOW STUFF*/
-    .head{
-        padding-top:5vh;
-        height:95vh;
-        background-color: #FFFCF2;
-
-        
-    }
-    nav{
-        border-bottom:1px solid #ccc;
-        border-width:1px 0;
-        list-style:none;
-        margin:0;
-        padding-bottom: 5vh;
-        text-align:center;
-    }
-    
-    nav ul{
-        list-style-type: none;
-        margin: 0;
-    }
-    nav ul li{
-        text-align: center;
-        display: inline;
-        padding:0 5vw 3vh 5vw;
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-        color:black;
-    }
-    nav ul li a:hover{
-        font-weight: 200;
-    }
-    
-    .top{
+    .tops{
         height:250vh;
         background-color: #E3DECC;
-    }
-    
-    .foot{
-        text-align: center;
-        height:10vh;
-        background-color:black;
-    }
-
-    
-    /*Start of Member Columns*/
-    /*Two Columns*/
-    #containerLarge {
-	   clear:left;
-	   float:left;
-	   width:100%;
-	   overflow:hidden;
-    }
-    #container1 {
-	   float:left;
-	   width:100%;
-	   position:relative;
-	   right:50%;
-    }   
-    #col1 {
-	   float:left;
-	   width:46%;
-	   position:relative;
-	   left:52%;
-	   overflow:hidden;
-    }
-    #col2 {
-	   float:left;
-	   width:46%;
-	   position:relative;
-	   left:56%;
-	   overflow:hidden;
-    }
-    #doublecontainer{
-        padding:20px;
-        background-color: #3F88C5;
-        height:40%;
-        border-radius: 10px;
-        text-align: center;
-        position: relative;
-    }
-    
-
-
-    
-    /*Three Columns*/
-    
-    #container2 {
-	   clear:left;
-	   float:left;
-	   width:100%;
-	   position:relative;
-	   right:33.333%;
-    }
-    #container3-1 {
-	   float:left;
-	   width:100%;
-	   position:relative;
-	   right:33.33%;
-    
-    }
-    #container3-1 h2{
-        font-size: 100%;
-    }
-    #col3-1 {
-	   float:left;
-	   width:29.33%;
-	   position:relative;
-	   left:68.67%;
-	   overflow:hidden;
-    }
-    #col3-2 {
-	   float:left;
-	   width:29.33%;
-	   position:relative;
-	   left:72.67%;
-	   overflow:hidden;
-    }
-    #col3-3 {
-	   float:left;
-	   width:29.33%;
-	   position:relative;
-	   left:76.67%;
-	   overflow:hidden;
-    }
-    
-    #tripcontainer{
-        padding:20px;
-        background-color: #3F88C5;
-        height:25vh;
-        border-radius: 10px;
-        text-align: center;
-        position: relative;
-        margin-top: 10%;
-    }
-    #tripcontainer h3{
-        font-size:70%;
-    }
-    
-    #tripcontainer img{
-        width:40%;
-        float:left;
-        padding:5%;
-        border-radius: 20px;
-    }
-
-    /*End of Columns*/
-    /*Image Placeholders*/
-    /*Double Image*/
-    #doublecontainer img{
-        width:40%;
-        float:left;
-        padding:10px;
-        border-radius: 20px;
-    }
-    #memberContainerText{
-        position: absolute;
-        top:40%;
-        left: 40%; right:0;
-        color: white;
     }
     
     
@@ -207,7 +32,7 @@
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="home.html#about">About Us</a></li>
                 <li><a href="meeting.html">Meeting Notes</a></li>
                 <li><a href="members.html">Members</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -251,7 +76,7 @@
         
     </div>
    
-    <div class="top">
+    <div class="tops">
         <div id="containerLarge">
 	<div id="container2">
 		<div id="container3-1">
@@ -259,10 +84,10 @@
 				<!-- Column one start -->
                 
 				<div id="tripcontainer">
-                    <a href="#siriP" rel="modal:open"><img src="images/members/siri.png">
-                        <div id="memberContainerText">
-                            <h2>Ice</h2>
-                            <h3>Cold</h3>
+                    <a href="#iceP" rel="modal:open"><img src="images/members/ice.png">
+                        <div id="memberContainerText" style="padding-left:20px;">
+                            <h2>Ice Somboon</h2>
+                            <h3>Student Council Cabinet Representative</h3>
                         </div>
                     </a>
                 </div>
@@ -270,7 +95,7 @@
                 <div id="tripcontainer">
                     <a href="#aditP" rel="modal:open"><img src="images/members/adit.jpeg">
                         <div id="memberContainerText">
-                            <h2>Adit</h2>
+                            <h2>Adit Mangharam</h2>
                             <h3>Senior Council Vice President</h3>
                         </div>
                     </a>
@@ -306,7 +131,7 @@
                 <div id="tripcontainer">
                     <a href="#guyP" rel="modal:open"><img src="images/members/Guy.png">
                         <div id="memberContainerText">
-                            <h2>Guy</h2>
+                            <h2>Guy Maximus Thivat</h2>
                             <h3>Freshmen Council Vice-President</h3>
                         </div>
                     </a>
@@ -319,9 +144,9 @@
 				<!-- Column two start -->
 				<div id="tripcontainer">
                     <a href="#danP" rel="modal:open"><img src="images/members/siri.png">
-                        <div id="memberContainerText">
+                        <div id="memberContainerText" style="padding-left:20px">
                             <h2>Dan Borenstein</h2>
-                            <h3>The Man</h3>
+                            <h3>Student Council Cabinet Representative</h3>
                         </div>
                     </a>
                 </div>
@@ -363,7 +188,7 @@
                 </div>
                 
                 <div id="tripcontainer">
-                    <a href="#rafaP" rel="modal:open"><img src="images/members/siri.png">
+                    <a href="#rafaP" rel="modal:open"><img src="images/members/Rafa.png">
                         <div id="memberContainerText">
                             <h2>Raphael Romasanta</h2>
                             <h3>Freshmen Council Representative</h3>
@@ -405,7 +230,7 @@
                     <a href="#milindP" rel="modal:open"><img src="images/members/milind.png">
                         <div id="memberContainerText">
                             <h2>Milind Gandhi</h2>
-                            <h3>Sophomore Council Representative</h3>
+                            <h3>Sophomore Council Vice President</h3>
                         </div>
                     </a>
                 </div>
@@ -413,7 +238,7 @@
                 <div id="tripcontainer">
                     <a href="#luluP" rel="modal:open"><img src="images/members/Lulu.jpg">
                         <div id="memberContainerText">
-                            <h2>Lulu</h2>
+                            <h2>Lulu Schmitt</h2>
                             <h3>Freshmen Council President</h3>
                         </div>
                     </a>
@@ -518,18 +343,35 @@
     <p>Hi everyone!  My name is Carol Zeitune and I'm a Junior Representative.  As a member of Student Council, I am highly motivated and excited to help make this year something to look forward to!  Along with advocating for your voices, I am extremely passionate about softball and writing.  If you have any comments, suggestions, concerns, whatever it may be- feel free to approach me! <br><a href="#" rel="modal:close">Close</a> </p>
 </div> 
 <div id="helenP" style="display:none">
-    <p>You need a better bio Helen<br><a href="#" rel="modal:close">Close</a> </p>
+    <p>Hi I'm this year's Student Council Cabinet Vice-President. In the previous years I was the Freshman Class President, Sophomore Class President, and Student Council Cabinet Treasurer. Within the Student Council I'm a part of the Awards Committee to identify student concerns regarding awards at ISB and communicate those issues to the admins to come up with solutions. Feel free to send me an email at 14383@students.isb.ac.th! :) <br><a href="#" rel="modal:close">Close</a> </p>
 </div>
     
 <div id="milindP" style="display:none">
     <p>Hey Guys, my name is Milind Gandhi and I am this years Sophomore Class Vice-President. I am currently 15 and I have been going to ISB since I was in Kindergarten. Some of my hobbies include playing basketball, playing the trumpet, watching Arsenal win the premier league this year, and how could I not forget, spending my quality Saturday afternoons being enlightened by my ROTC instructors and sitting on a gravel ground under the sun for 8 hours.
  <br><a href="#" rel="modal:close">Close</a> </p>
 </div>
+<div id="swanP" style="display:none">
+    <p>Hi, I'm Seung Won, this year's Sophomore Class President. I came to ISB in 6th grade as a student who had never even set foot in an international school before. It's been 5 years since then, and I believe that now it is my job to help this school become a better place for everyone. My favourite hobbies are playing basketball and playing my clarinet. Please do not hesitate to share your opinions or concerns about high school with me or any of the other council members. Let's make this year an awesome one!  <br><a href="#" rel="modal:close">Close</a> </p>
+</div>
 
-
+<div id="rafaP" style="display:none">
+    <p> Hi, my name is Raphael Romasanta, and I am the Freshman Class Representative (which, if you were paying attention was written on my rectangle) I've lived in Thailand and the Philippines, and this is my fourth year here at ISB. This is my first time in Student Council, and I'm really excited for all that we're going to do this year. <br><a href="#" rel="modal:close">Close</a> </p>
+</div>
+    
+<div id="iceP" style="display:none">
+    <p>Hi gang! Here's one virtual hug for clicking on my bio! I am a Junior, and this school year is my second year with Student Council. If you are facing an issue, in need of homework help, or just feeling down on a Friday night, I am only a Facebook chat away! Besides loving StuCo, I also love lame puns. If you have any good ones, please share it with me! Remember that I am not as cold as Ice!!!
+   
+<br><a href="#" rel="modal:close">Close</a> </p>
+</div>
+    
+<div id="aditP" style="display:none">
+    <p>Hi Panthers, my name is Adit Mangharam, and I'm the senior class vice-president. This is my 13th and final year at ISB, and have witnessed many changes in the school in my time here. In the remaining time I have here, I hope to continue implementing change that you as the student body want to see.<br><a href="#" rel="modal:close">Close</a> </p>
+</div> 
+    
 <div id="temP" style="display:none">
     <p>Biography <br><a href="#" rel="modal:close">Close</a> </p>
 </div>
+
 
 
 

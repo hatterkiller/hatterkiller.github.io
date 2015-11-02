@@ -1,1 +1,241 @@
-style.css
+*{
+        margin:0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-color:1A1A1A;
+        text-decoration: none;
+    }
+    
+    body{
+        position: relative;
+    }
+/*NAV*/
+    nav{
+        border-bottom:1px solid #ccc;
+        border-width:1px 0;
+        list-style:none;
+        margin:0;
+        padding-bottom: 5vh;
+        text-align:center;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+    }
+    nav ul li{
+        text-align: center;
+        display: inline;
+        padding:0 5vw 3vh 5vw;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color:black;
+    }
+    nav ul li a:hover{
+        font-weight: 200;
+    }
+    
+    .logo{
+        padding-bottom:  5vh;
+        width:100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+    .logo:hover{
+        animation: spin 1.5s linear infinite;
+    }
+    
+    @keyframes spin{
+        0% {
+            transform:rotate(0deg);
+        }
+        100% {
+            transform: rotate(720deg);
+        }
+    }
+    
+/*END OF NAV*/
+/*WOW STUFF*/
+    .head{
+        padding-top:5vh;
+        height:95vh;
+        background-color: #FFFCF2;
+
+        
+    }
+    
+    .downarrow{
+        padding-top: 5vh;
+    }
+    .downarrow:hover .whitearrow{
+        fill:#000;
+        animation: changeColor 1s linear forwards;
+        animation-fill-mode: forwards;
+    }
+    
+    .whitearrow{
+    }
+    
+    .center-title{
+        position:absolute;
+        text-align: center;
+        left:0;
+        top:50vh;
+        right:0;
+        font-size: 6vh;
+    }
+    
+    .top{
+        height:100vh;
+        background-color: #E3DECC;
+    }
+    
+    .foot{
+        text-align: center;
+        height:10vh;
+        background-color:black;
+    }
+    
+    
+    @keyframes changeColor{
+/*        linear-gradient(to bottom, #fffcfc 0%,#eae3e3 100%);*/
+        0%   {fill: #FFFFFF;}
+        50%   {fill: #777; }
+        100% {fill: #000; }
+        
+    }
+    
+    
+    /*Start of About Us Section*/
+    #about{
+        padding:3vh;
+    }
+    #about h1{
+        font-size:6vw;
+    }
+
+/*Members Styling*/
+/*Start of Member Columns*/
+    /*Two Columns*/
+    #containerLarge {
+	   clear:left;
+	   float:left;
+	   width:100%;
+	   overflow:hidden;
+    }
+    #container1 {
+	   float:left;
+	   width:100%;
+	   position:relative;
+	   right:50%;
+    }   
+    #col1 {
+	   float:left;
+	   width:46%;
+	   position:relative;
+	   left:52%;
+	   overflow:hidden;
+    }
+    #col2 {
+	   float:left;
+	   width:46%;
+	   position:relative;
+	   left:56%;
+	   overflow:hidden;
+    }
+    #doublecontainer{
+        padding:20px;
+        background-color: #3F88C5;
+        height:40%;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+    }
+    
+
+
+    
+    /*Three Columns*/
+    
+    #container2 {
+	   clear:left;
+	   float:left;
+	   width:100%;
+	   position:relative;
+	   right:33.333%;
+    }
+    #container3-1 {
+	   float:left;
+	   width:100%;
+	   position:relative;
+	   right:33.33%;
+    
+    }
+    #container3-1 h2{
+        font-size: 100%;
+    }
+    #col3-1 {
+	   float:left;
+	   width:29.33%;
+	   position:relative;
+	   left:68.67%;
+	   overflow:hidden;
+    }
+    #col3-2 {
+	   float:left;
+	   width:29.33%;
+	   position:relative;
+	   left:72.67%;
+	   overflow:hidden;
+    }
+    #col3-3 {
+	   float:left;
+	   width:29.33%;
+	   position:relative;
+	   left:76.67%;
+	   overflow:hidden;
+    }
+    
+    #tripcontainer{
+        padding:20px;
+        background-color: #3F88C5;
+        height:25vh;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        margin-top: 10%;
+    }
+    #tripcontainer h3{
+        font-size:70%;
+    }
+    
+    #tripcontainer img{
+        width:40%;
+        float:left;
+        padding:5%;
+        border-radius: 20px;
+    }
+
+    /*End of Columns*/
+    /*Image Placeholders*/
+    /*Double Image*/
+    #doublecontainer img{
+        width:40%;
+        float:left;
+        padding:10px;
+        border-radius: 20px;
+    }
+    #memberContainerText{
+        position: absolute;
+        top:40%;
+        left: 40%; right:0;
+        color: white;
+    }
+    
+
+/*Styling for Meeting Notes*/
