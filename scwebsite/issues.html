@@ -1,4 +1,27 @@
 <html>
+<!--Temp Stylesheet-->
+<style>
+   .heads{
+         padding-top:5vh;
+        height:auto;
+        background-color: #FFFCF2;
+    }
+    .heads .color{
+        text-align: center;
+    }
+    
+    .wrap { width: 95vw; height:auto;padding: 0; overflow:hidden; padding-bottom: 20vh;}
+    .frame { width: 100vw; height: 80vh; }
+    .frame {
+
+        -webkit-transform: scale(1.1);
+        -webkit-transform-origin: 0 0;
+    }
+    iframe{
+        margin-bottom: 15vh;
+    }
+    
+</style>
     
 <head>
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,400|Indie+Flower' rel='stylesheet' type='text/css'>
@@ -11,7 +34,10 @@
     <script src="jquery.min2.js"></script> 
 </head>
 <body>
-    <div class="head">
+
+    <div class="heads">
+                    <img src="images/sc.svg" class="logo">
+
         <!--Start of Navigation Code-->
         <nav>
             <ul>
@@ -45,24 +71,28 @@
             </ul>
         </nav>
         <!--End of Navigation Code-->
+        <div  class="wrap">
+            <h1 style="text-align:center; padding-bottom:20vh;">Issuess:</h1>
+            <!--Food-->
+            <h1 id ="food">Food</h1>
+            <iframe class="frame" src="https://docs.google.com/document/d/1V_0uCwbUMCP58-5Unp1U14_-PlqUZFZKu6gzFxUtyho/pub?embedded=true"></iframe>
+            <!--GPA-->
+            <h1 id="gpa">GPA</h1>
+            <iframe class="frame" src="https://docs.google.com/document/d/1Q7YHP5TH5U41HvkJN1iB3j_h3qHacfbdKWUzbEhm5qY/pub?embedded=true"></iframe>
+            <!--Uniform-->
+            <h1 id="uniform">Uniform</h1>
+            <iframe class="frame"  src="https://docs.google.com/document/d/1W-bUhEMvzKtYA7X3lUOIazYJmaLWrodPZ2-jHd7-sZM/pub?embedded=true"></iframe>
+            <!--Bathroom-->
+            <h1 id="bathroom">Bathroom</h1>
+            <iframe class="frame" src="https://docs.google.com/document/d/1C56pmMKvEtSUJamEhlhTebswO1OgKtOm0BpyOpMvNPA/pub?embedded=true"></iframe>
         
-    
-    </div>
-   
-    <div class="top">
-    
-    </div>
-    
-    <div class="middle">
-    
-    </div>
-    
-    <div class="bottom">
-    
+        </div>
+         
+  
     </div>
     
     <div class="foot">
-        <p style="padding-top:30px;color:white;">Copyright 2015-2016 ISB Student Council. Made by Daiki and the Software Development Club.</p>    
+        <p style="padding-top:30px;color:white;">Copyright 2015-2016 ISB Student Council. Made by <a  style="color:white" href="https://hatterkiller.github.io/portfolio/index.html">Daiki</a> and the <a  style="color:white" href="http://studentdevelopers.isb.ac.th">Software Development Club.</a></p>    
     
     </div>
 </body>
