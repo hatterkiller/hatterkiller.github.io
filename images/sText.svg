@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1533px" height="651px" viewBox="0 0 1533 651" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Sky text</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Retina-Display" sketch:type="MSArtboardGroup" transform="translate(-674.000000, -312.000000)" fill="#FFFFFF" font-weight="normal">
+            <g id="Page-1" sketch:type="MSLayerGroup">
+                <g id="Sky-text" transform="translate(674.000000, 277.000000)" sketch:type="MSTextLayer">
+                    <text id="I-Design-Things" font-family="Braxton" font-size="288">
+                        <tspan x="0" y="615">I Design Things</tspan>
+                    </text>
+                    <text id="Daiki-Shinomiya" font-family="Braxton" font-size="144">
+                        <tspan x="349" y="137">Daiki Shinomiya</tspan>
+                    </text>
+                    <text id="Hello,-I’m" font-family="Meticulous Ariel" font-size="72">
+                        <tspan x="0" y="124">Hello, I</tspan>
+                        <tspan x="225.432" y="124" font-family="Lucida Grande">’</tspan>
+                        <tspan x="248.21325" y="124">m</tspan>
+                    </text>
+                    <text id="And" font-family="Meticulous Ariel" font-size="72">
+                        <tspan x="706" y="351">And</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

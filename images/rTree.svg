@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="178px" height="264px" viewBox="0 0 178 264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Rotational Tree</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Retina-Display" sketch:type="MSArtboardGroup" transform="translate(-1351.000000, -1152.000000)" fill="#72993A">
+            <g id="Page-1" sketch:type="MSLayerGroup">
+                <path d="M1439.60549,1152 L1528.21099,1415.5 L1351,1415.5 L1439.60549,1152 Z" id="Rotational-Tree" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
